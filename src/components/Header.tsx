@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
         <div className="flex items-center mb-4 md:mb-0">
           <LineChart className="h-6 w-6 mr-2" />
-          <h1 className="text-xl font-bold">SELIC-PIB Insights</h1>
+          <h1 className="text-xl font-bold">SELIC-PIB-IPCA Insights</h1>
         </div>
         
         <div className="flex space-x-4">
@@ -25,10 +25,10 @@ const Header = () => {
           <Button 
             variant="outline" 
             className="text-white border-white hover:bg-blue-800"
-            onClick={() => window.open("https://github.com/", "_blank")}
+            onClick={() => window.open("https://github.com/bcb-sgs/sgs-api", "_blank")}
           >
             <Github className="mr-2 h-4 w-4" />
-            Repo
+            SGS API
           </Button>
         </div>
       </div>
