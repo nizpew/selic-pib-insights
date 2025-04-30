@@ -1,6 +1,6 @@
 # selic-pib-insights
 
-link: https://selic-pib-insights.lovable.app/
+preview link: https://selic-pib-insights.lovable.app/
 
 
 Follow these steps:
