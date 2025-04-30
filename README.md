@@ -1,6 +1,15 @@
-# selic-pib-insights
+# Selic PIB Insights
 
-preview link: https://selic-pib-insights.lovable.app/
+preview/veja ao vivo link: https://selic-pib-insights.lovable.app/
+
+## Descrição
+O projeto **Selic PIB Insights** é uma análise abrangente das interações entre a taxa Selic, o PIB e a inflação (IPCA) no Brasil. Utilizando dados do Banco Central do Brasil, este projeto implementa técnicas de análise econométrica, visualizações interativas e dashboards para fornecer insights valiosos sobre a dinâmica econômica do país. O objetivo é entender como as políticas monetárias impactam a economia e auxiliar na tomada de decisões informadas.
+
+## Funcionalidades
+- **Baixa de Dados:** Coleta de séries temporais de múltiplas variáveis econômicas, incluindo Selic, PIB e IPCA.
+- **Análise Econométrica:** Implementação de modelos VAR para entender as relações entre as variáveis.
+- **Visualização Avançada:** Criação de dashboards interativos utilizando Plotly para facilitar a análise e interpretação dos dados.
+- **Documentação Científica:** Geração de relatórios técnicos com equações e análises detalhadas.
 
 
 Follow these steps:
@@ -28,4 +37,9 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
-- python
+- Python
+- Pandas
+- Statsmodels
+- Matplotlib / Plotly
+- Jupyter Notebook / Google Colab
+
