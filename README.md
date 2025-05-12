@@ -1,46 +1,97 @@
-# Selic PIB Insights
+PTBR 🇧🇷:
 
-preview/veja ao vivo link: https://selic-pib-insights.lovable.app/
+
+# Selic-PIB Insights  
+**Status:** Em produção 🚀  
+
+---
+
+## 🚀 Visão Geral  
+**Selic-PIB Insights** é uma plataforma web interativa que combina séries temporais macroeconômicas do Banco Central do Brasil (Selic, PIB e IPCA) para entregar análises econométricas e visualizações em tempo real. O objetivo é oferecer suporte a analistas, economistas e gestores na tomada de decisão de políticas monetárias e investimentos, com:
+
+- **Coleta automática** de dados oficiais atualizados  
+- **Modelagem VAR** para identificar relações de causa e efeito  
+- **Dashboards dinâmicos** para explorações ad hoc  
 ![image](https://github.com/user-attachments/assets/21909909-c659-4d3b-8be8-a110d779ab06)
+🔗 [Veja ao vivo](https://selic-pib-insights.lovable.app/)  
 
-## Descrição
-O projeto **Selic PIB Insights** é uma análise abrangente das interações entre a taxa Selic, o PIB e a inflação (IPCA) no Brasil. Utilizando dados do Banco Central do Brasil, este projeto implementa técnicas de análise econométrica, visualizações interativas e dashboards para fornecer insights valiosos sobre a dinâmica econômica do país. O objetivo é entender como as políticas monetárias impactam a economia e auxiliar na tomada de decisões informadas.
+---
 
-## Funcionalidades
-- **Baixa de Dados:** Coleta de séries temporais de múltiplas variáveis econômicas, incluindo Selic, PIB e IPCA.
-- **Análise Econométrica:** Implementação de modelos VAR para entender as relações entre as variáveis.
-- **Visualização Avançada:** Criação de dashboards interativos utilizando Plotly para facilitar a análise e interpretação dos dados.
-- **Documentação Científica:** Geração de relatórios técnicos com equações e análises detalhadas.
+## 🎯 Benefícios para Usuários e Gestores  
+- **Decisões embasadas:** insights quantitativos sobre como mudanças na Selic afetam PIB e inflação.  
+- **Agilidade:** dashboards filtráveis para exploração instantânea de cenários históricos e projeções.  
+- **Transparência:** todos os cálculos e modelos são auditáveis no repositório e em relatórios gerados.  
+- **Compartilhamento:** relatórios exportáveis em PDF e imagens prontas para apresentações.
+
+---
+
+## 🛠️ Tecnologias e Arquitetura  
+- **Front-end:**  
+  - Vite + React + TypeScript  
+  - shadcn-ui + Tailwind CSS  
+- **Back-end & Data Science:**  
+  - Python (Pandas, Statsmodels)  
+  - Modelagem VAR e econometria  
+  - Visualizações com Matplotlib e Plotly  
+- **Ambiente de Desenvolvimento:**  
+  - Jupyter Notebook / Google Colab para prototipação  
+  - Node.js para build e deploy  
+
+---
+
+## ⚙️ Instalação e Uso  
+
+1. **Clonar o repositório**  
+   ```bash
+   git clone https://github.com/nizpew/selic-pib-insights.git
+   cd selic-pib-insights
 
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# ------------ENGLISH README 🇺🇸: ------------------
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Selic-PIB Insights  
+**Status:** In Production 🚀
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-## What technologies are used for this project?
+## 🚀 Overview  
+Selic-PIB Insights is an interactive web platform that combines macroeconomic time series data from the Central Bank of Brazil (Selic, GDP, and IPCA) to deliver econometric analyses and real-time visualizations. The goal is to support analysts, economists, and managers in making decisions regarding monetary policies and investments, featuring:
 
-This project is built with:
+- Automatic collection of updated official data
+- VAR modeling to identify cause-and-effect relationships
+- Dynamic dashboards for ad hoc explorations  
+  ![image](🔗) Live View
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-- Python
-- Pandas
-- Statsmodels
-- Matplotlib / Plotly
-- Jupyter Notebook / Google Colab
+---
+
+## 🎯 Benefits for Users and Managers  
+- **Informed Decisions:** Quantitative insights on how changes in Selic affect GDP and inflation.
+- **Agility:** Filterable dashboards for instant exploration of historical scenarios and projections.
+- **Transparency:** All calculations and models are auditable in the repository and in generated reports.
+- **Sharing:** Exportable reports in PDF and images ready for presentations.
+
+---
+
+## 🛠️ Technologies and Architecture  
+- **Front-end:**
+  - Vite + React + TypeScript
+  - shadcn-ui + Tailwind CSS
+- **Back-end & Data Science:**
+  - Python (Pandas, Statsmodels)
+  - VAR modeling and econometrics
+  - Visualizations with Matplotlib and Plotly
+- **Development Environment:**
+  - Jupyter Notebook / Google Colab for prototyping
+  - Node.js for build and deployment
+
+---
+
+## ⚙️ Installation and Usage  
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/nizpew/selic-pib-insights.git
+   cd selic-pib-insights
+   ```
 
